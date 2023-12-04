@@ -1,0 +1,31 @@
+.main 
+{  
+  min-height: 100vh;
+}
+.colorBar
+{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  max-width: 90%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #668000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+    border-radius: 10px;
+}
+.colorBar li
+{
+  list-style-type: none;
+    padding: 8px 14px;
+    border: 1px solid #c2c2c2c2;
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
